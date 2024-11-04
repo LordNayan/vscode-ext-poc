@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Output directories
+dist/
+out/
+.vscode-test/
+coverage/
+
+# VS Code workspace settings
+.vscode/
+.vscode-test.mjs
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Webpack files
+*.cache/
+*.tmp/
+.cache-loader/
+.cache/
+.cache-uglify/
+*.hot-update.*
+
+# Env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Git-related files
+.git/
+.idea/
+
+# Specific files for your VSCode Extension
+.vscode-test-web/
